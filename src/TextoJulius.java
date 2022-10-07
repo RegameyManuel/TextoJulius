@@ -5,6 +5,8 @@ import tools.Transcoder;
 public class TextoJulius {
     public static void main(String[] args)
     {
+
+
         String str = "Hello world! ça färte bànâbè?";
         String  crypte, decrypte;
 
@@ -21,18 +23,8 @@ public class TextoJulius {
         System.out.println("Chaîne décryptée : " + decrypte);
         /*ReadKeyTest;*/
 
-        Transcoder untranscode = new Transcoder("Les tests sont la pour essayer !!!");
-
-        System.out.println("Chaîne cryptée : " + untranscode.encode());
-
-        System.out.println("BYAPASBNBGAPASBGASBNASAFBHBGBNAHAJBNAZAFBLADBNAPASASAJAMAPADBNBJBJBJ");
 
 
-
-
-        System.out.println("Chaîne décryptée : " + untranscode.decode());
-
-        System.out.println("Les tests sont la pour essayer !!!");
 
 
 

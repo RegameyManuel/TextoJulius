@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c88be29-354c-459d-af95-a7b8373fe46e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/germLibCrypt_1_0_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextoJulius.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TextoJulius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/java/ReadKeyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextoJulius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextoJulius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/Transcoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/Transcoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/ReadKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/ReadKeyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextoJulius">
+  <component name="RunManager" selected="JUnit.ReadKeyTest.createMapTest">
     <configuration name="TextoJulius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextoJulius" />
       <module name="TextoJulius" />
@@ -79,6 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadKeyTest.createMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TextoJulius" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tools" />
+      <option name="MAIN_CLASS_NAME" value="Tools.ReadKeyTest" />
+      <option name="METHOD_NAME" value="createMapTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadKeyTest.readKeyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TextoJulius" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReadKeyTest.createMapTest" />
         <item itemvalue="Application.TextoJulius" />
         <item itemvalue="JUnit.ReadKeyTest.readKeyTest" />
         <item itemvalue="JUnit.ReadKeyTest" />
@@ -106,7 +115,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665042448950</updated>
       <workItem from="1665042450190" duration="12258000" />
-      <workItem from="1665064281346" duration="679000" />
+      <workItem from="1665064281346" duration="1646000" />
+      <workItem from="1665126115387" duration="9644000" />
     </task>
     <servers />
   </component>

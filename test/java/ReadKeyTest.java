@@ -3,7 +3,7 @@ package Tools;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.germain.tool.ManaBox;
-import Tools.
+import tools.Transcoder;
 
 public class ReadKeyTest {
     @Test
@@ -19,12 +19,12 @@ public class ReadKeyTest {
 
     @Test
     public void createMapTest() {
-        String testGermain = "6lUjKOzUj4e/Gelw9c6sDLqHniwulClN6XSayZ+HRF/kbZx+CMf95jxrhm4YFSY26OnxVlsrzGkO00IMeAFs3g==";
-        TransCoder transcodeTest = new TransCoder(testGermain);
-        Assert.assertNotNull(transcodeTest.encode());
-        System.out.println(transcodeTest.encode().toString());
-        Assert.assertNotNull(transcodeTest.decode());
-        System.out.println(transcodeTest.decode().toString());
+        String testGermain = "CFfrkowl.aDzyS:eHjsGPZgMApWvRYVmtnK!BuU IQiEXTxbqhLdNJO,'c";
+        Transcoder transcodeTest = new Transcoder(testGermain);
+        Assertions.assertNotNull(transcodeTest.encode("Les tests sont la pour essayer !!!"));
+        System.out.println(transcodeTest.encode("Les tests sont la pour essayer !!!"));
+        Assertions.assertNotNull(transcodeTest.decode("BYAPASBNBGAPASBGASBNASAFBHBGBNAHAJBNAZAFBLADBNAPASASAJAMAPADBNBJBJBJ"));
+        System.out.println(transcodeTest.decode("BYAPASBNBGAPASBGASBNASAFBHBGBNAHAJBNAZAFBLADBNAPASASAJAMAPADBNBJBJBJ"));
     }
 
 }
