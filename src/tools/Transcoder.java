@@ -30,6 +30,16 @@ public class Transcoder {
         }
     }
 
+    public Hashtable getclefencode()
+    {
+        return clefencode;
+    }
+
+    public Hashtable getclefdecode()
+    {
+        return clefdecode;
+    }
+
     public String encode(String msg ){
 
         // méthode qui prend une string et qui renvoie

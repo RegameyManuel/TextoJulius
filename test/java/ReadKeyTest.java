@@ -19,12 +19,23 @@ public class ReadKeyTest {
 
     @Test
     public void createMapTest() {
+
         String testGermain = "CFfrkowl.aDzyS:eHjsGPZgMApWvRYVmtnK!BuU IQiEXTxbqhLdNJO,'c";
         Transcoder transcodeTest = new Transcoder(testGermain);
         Assertions.assertNotNull(transcodeTest.encode("Les tests sont la pour essayer !!!"));
         System.out.println(transcodeTest.encode("Les tests sont la pour essayer !!!"));
         Assertions.assertNotNull(transcodeTest.decode("BYAPASBNBGAPASBGASBNASAFBHBGBNAHAJBNAZAFBLADBNAPASASAJAMAPADBNBJBJBJ"));
         System.out.println(transcodeTest.decode("BYAPASBNBGAPASBGASBNASAFBHBGBNAHAJBNAZAFBLADBNAPASASAJAMAPADBNBJBJBJ"));
+        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("Comparons : ");
+        System.out.println("BYAPASBNBGAPASBGASBNASAFBHBGBNAHAJBNAZAFBLADBNAPASASAJAMAPADBNBJBJBJ");
+        System.out.println(transcodeTest.encode(transcodeTest.decode("BYAPASBNBGAPASBGASBNASAFBHBGBNAHAJBNAZAFBLADBNAPASASAJAMAPADBNBJBJBJ")));
+        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("Comparons : ");
+        System.out.println("Les tests sont la pour essayer !!!");
+        System.out.println(transcodeTest.decode(transcodeTest.encode("Les tests sont la pour essayer !!!")));
+
+
     }
 
 }

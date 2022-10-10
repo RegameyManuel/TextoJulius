@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c88be29-354c-459d-af95-a7b8373fe46e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Model/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextoJulius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextoJulius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextoJulius.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tools/Transcoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/Transcoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/java/ReadKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/ReadKeyTest.java" afterDir="false" />
     </list>
@@ -12,6 +14,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -19,7 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FkiNL3mPdyuFx9iXYG19lA4OYY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,14 +58,20 @@
       <recent name="$PROJECT_DIR$/test/java" />
       <recent name="$PROJECT_DIR$/lib/germainLibCrypt" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReadKeyTest.createMapTest">
+  <component name="RunManager" selected="Application.TextoJulius">
     <configuration name="TextoJulius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextoJulius" />
       <module name="TextoJulius" />
@@ -99,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReadKeyTest.createMapTest" />
         <item itemvalue="Application.TextoJulius" />
+        <item itemvalue="JUnit.ReadKeyTest.createMapTest" />
         <item itemvalue="JUnit.ReadKeyTest.readKeyTest" />
         <item itemvalue="JUnit.ReadKeyTest" />
       </list>
@@ -116,7 +133,9 @@
       <updated>1665042448950</updated>
       <workItem from="1665042450190" duration="12258000" />
       <workItem from="1665064281346" duration="1646000" />
-      <workItem from="1665126115387" duration="9644000" />
+      <workItem from="1665126115387" duration="11910000" />
+      <workItem from="1665386554869" duration="15881000" />
+      <workItem from="1665410010036" duration="1948000" />
     </task>
     <servers />
   </component>
@@ -133,20 +152,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/test/java/ReadKeyTest.java</url>
-          <line>20</line>
-          <properties class="Tools.ReadKeyTest" method="createMapTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
